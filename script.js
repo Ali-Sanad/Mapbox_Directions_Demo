@@ -1,5 +1,6 @@
 mapboxgl.accessToken = "YOUR_MAPBOX_ACCESS_TOKEN";
 
+//[31.235712, 30.04442] => longitude and latitude for Cairo, Egypt 
 let start = [31.235712, 30.04442];
 navigator.geolocation.getCurrentPosition(successLocation, errorLocation, {
   enableHighAccuracy: true
